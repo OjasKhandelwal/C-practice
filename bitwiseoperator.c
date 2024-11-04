@@ -1,4 +1,4 @@
-//Logical Operators
+//Bitwise Operators
 #include <stdio.h>
 
 int main(){
