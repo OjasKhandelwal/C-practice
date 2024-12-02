@@ -2,12 +2,23 @@
 #include <stdio.h>
 int main() {
     int n;
-    int fac =1;
     printf("n:");
     scanf("%d" , &n);
-    for(int i =1 ; i<=n; i++){
-        fac*=i;
+    int a = 0 , b=1;
+    if (n>=1){
+        printf("%d \n" , a);
     }
-    printf("factorial of %d : %d" , n , fac);
+    if (n>=2){
+        printf("%d\n" , b);
+    }    
+        
+    for(int i =3 ; i<=n ; i++){
+        int next = a+b;
+        printf("%d \n" , next);
+        a=b;
+        b=next;
+    }
+    printf(" \n");
+
     return 0;
 }
