@@ -1,4 +1,5 @@
-//Bubble Sort - two adjacent elements are compared , if those 2 elements are in correct order than we move further , else we swap these elements (elements are to be arranged in ascending order)
+//Bubble Sort - two adjacent elements are compared , if those 2 elements are in correct order than we move further , else we swap these elements
+//              (elements are to be arranged in ascending order)
 
 #include <stdio.h>
 int main() {
